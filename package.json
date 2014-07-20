@@ -1,6 +1,6 @@
 {
   "name": "node-resolver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Atom plugin to jump to a module's file from its require statement",
   "main": "index.js",
   "license": "MIT",
