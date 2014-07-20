@@ -1,0 +1,42 @@
+{
+  "name": "node-resolver",
+  "version": "1.0.0",
+  "description": "Atom plugin to jump to a module's file from its require statement",
+  "main": "index.js",
+  "license": "MIT",
+  "activationEvents": [
+    "node-resolver:open-selected-dependencies"
+  ],
+  "scripts": {},
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {
+    "astw": "^1.2.0",
+    "clone": "^0.1.17",
+    "esprima": "^1.2.2",
+    "file-position": "0.0.0",
+    "is-require": "0.0.1",
+    "resolve": "^0.7.1",
+    "static-eval": "^0.2.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/atom-node-resolver.git"
+  },
+  "keywords": [
+    "atom",
+    "require",
+    "plugin",
+    "resolve",
+    "file",
+    "navigation"
+  ],
+  "homepage": "https://github.com/hughsk/atom-node-resolver",
+  "bugs": {
+    "url": "https://github.com/hughsk/atom-node-resolver/issues"
+  }
+}
