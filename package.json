@@ -16,7 +16,7 @@
   "dependencies": {
     "astw": "^1.2.0",
     "clone": "^0.1.17",
-    "esprima": "^1.2.2",
+    "esprima-fb": "^10001.1.0-dev-harmony-fb",
     "file-position": "0.0.0",
     "is-require": "0.0.1",
     "resolve": "^0.7.1",
