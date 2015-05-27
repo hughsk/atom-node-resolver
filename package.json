@@ -4,9 +4,11 @@
   "description": "Atom plugin to jump to a module's file from its require statement",
   "main": "index.js",
   "license": "MIT",
-  "activationEvents": [
-    "node-resolver:open-selected-dependencies"
-  ],
+  "activationCommands": {
+    "atom-text-editor": [
+      "node-resolver:open-selected-dependencies"
+    ]
+  },
   "scripts": {},
   "author": {
     "name": "Hugh Kennedy",
