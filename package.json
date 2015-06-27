@@ -4,7 +4,7 @@
   "description": "Atom plugin to jump to a module's file from its require statement",
   "main": "index.js",
   "license": "MIT",
-  "activationEvents": [
+  "activationCommands": [
     "node-resolver:open-selected-dependencies"
   ],
   "scripts": {},
