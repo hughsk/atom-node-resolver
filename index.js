@@ -9,7 +9,7 @@ var path      = require('path')
 var astw      = require('astw')
 
 exports.activate = function() {
-  atom.workspaceView.command('node-resolver:open-selected-dependencies', function() {
+  atom.commands.add('atom-workspace', 'node-resolver:open-selected-dependencies', function() {
     var editor = atom.workspace.getActiveEditor()
     var ranges = editor.getSelectedBufferRanges().slice()
     var buffer = editor.getBuffer()
